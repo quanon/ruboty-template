@@ -1,3 +1,9 @@
+GIT
+  remote: https://gist.github.com/e49287b5c383b20c52a3.git
+  revision: bf0aa97ff1582eced2b9ab632299a3fc8a44ac68
+  specs:
+    manabot-iizuka_weather (0.0.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -20,7 +26,7 @@ GEM
     minitest (5.4.2)
     multipart-post (2.0.0)
     rake (10.3.2)
-    redis (3.1.0)
+    redis (3.2.0)
     redis-namespace (1.5.1)
       redis (~> 3.0, >= 3.0.4)
     ruboty (1.0.4)
@@ -57,6 +63,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  manabot-iizuka_weather (~> 0.0.5)!
   rake
   ruboty-alias
   ruboty-cron
