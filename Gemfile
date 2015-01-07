@@ -9,4 +9,4 @@ gem 'ruboty-google_image'
 gem 'ruboty-redis'
 gem 'ruboty-slack'
 
-gem 'manabot-iizuka_weather', '~> 0.0.5', git: 'https://gist.github.com/e49287b5c383b20c52a3.git', require: 'iizuka_weather'
+gem 'ruboty-weather_report', github: 'quanon/ruboty-weather_report'

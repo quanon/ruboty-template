@@ -1,8 +1,10 @@
 GIT
-  remote: https://gist.github.com/e49287b5c383b20c52a3.git
-  revision: bf0aa97ff1582eced2b9ab632299a3fc8a44ac68
+  remote: git://github.com/quanon/ruboty-weather_report.git
+  revision: 3a1b3114b2abc60611c4248fda8b0e41155be7a3
   specs:
-    manabot-iizuka_weather (0.0.5)
+    ruboty-weather_report (0.0.2)
+      activesupport
+      ruboty
 
 GEM
   remote: https://rubygems.org/
@@ -63,10 +65,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  manabot-iizuka_weather (~> 0.0.5)!
   rake
   ruboty-alias
   ruboty-cron
   ruboty-google_image
   ruboty-redis
   ruboty-slack
+  ruboty-weather_report!
